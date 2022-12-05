@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T05:57:33.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZJsGfyAmptulMG-FyqgO" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T05:58:35.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="u-2hX0qK5ZpARUSlf77i" version="20.6.0" type="github">
   <diagram id="7lZnVUxdV9GmG4Xrz-Ul" name="第 1 页">
     <mxGraphModel dx="1422" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="etjSSOtS1xj7wKEMTFqi-1" value=":TWAI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="160" y="40" width="120" height="660" as="geometry" />
         </mxCell>
         <mxCell id="etjSSOtS1xj7wKEMTFqi-2" value=":CANBuffer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="360" y="40" width="120" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="4rBfE1nO6nDpJ1crWwvm-1" value=":CANBuffer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
