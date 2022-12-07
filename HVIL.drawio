@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T02:55:45.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1T8DOZcRth6zdie4SJ13" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-07T02:56:55.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-CzEA6XIXAMIWp-2E3CJ" version="20.6.0" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6HGAaZ_OQhGhJa6f5AsY" name="第 2 页">
-    <mxGraphModel dx="327" dy="173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,6 +203,12 @@
             <mxPoint x="400" y="360" as="sourcePoint" />
             <mxPoint x="450" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RXepxtn2kcosxwKhk60O-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Enable&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="405" y="210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RXepxtn2kcosxwKhk60O-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Interrupted&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
