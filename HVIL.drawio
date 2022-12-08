@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T03:28:23.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="GpPaX7lnud6XqtqKd6ad" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-08T02:15:14.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QUNEHKhzRdN8dDZ7t7UE" version="20.6.0" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1039" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-2" value=":VCU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-2" value=":VCU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="155" y="40" width="120" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-9" value="enable" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="i2D-3HKWvg72EdBBp7nu-2" target="i2D-3HKWvg72EdBBp7nu-3">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-9" value="enable" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" parent="i2D-3HKWvg72EdBBp7nu-2" target="i2D-3HKWvg72EdBBp7nu-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="60" y="100" as="sourcePoint" />
             <mxPoint x="220" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-3" value=":HVIL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-3" value=":HILM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="440" y="40" width="120" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-12" value="wake up" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" edge="1" parent="i2D-3HKWvg72EdBBp7nu-3">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-12" value="wake up" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" parent="i2D-3HKWvg72EdBBp7nu-3" edge="1">
           <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
             <mxPoint x="60" y="130" as="sourcePoint" />
             <Array as="points">
@@ -26,7 +26,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-14" value="CAN Init" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" edge="1" parent="i2D-3HKWvg72EdBBp7nu-3">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-14" value="CAN Init" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" parent="i2D-3HKWvg72EdBBp7nu-3" edge="1">
           <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
             <mxPoint x="60" y="170" as="sourcePoint" />
             <Array as="points">
@@ -36,16 +36,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-4" value=":HVIL Loop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="680" y="40" width="120" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="i2D-3HKWvg72EdBBp7nu-13" value="CAN ActHilmStatus:stand by" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1" target="i2D-3HKWvg72EdBBp7nu-2">
+        <mxCell id="i2D-3HKWvg72EdBBp7nu-13" value="CAN ActHilmStatus:stand by" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" parent="1" target="i2D-3HKWvg72EdBBp7nu-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="499.5" y="280" as="sourcePoint" />
             <mxPoint x="259.6666666666665" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="380" y="280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-1" value="Self-Diagnose" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
+            <mxPoint x="500" y="316" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="316" />
+            </Array>
+            <mxPoint x="505" y="336" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-2" value="Send HILM status" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500.5" y="384" as="sourcePoint" />
+            <mxPoint x="215.5" y="384" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-3" value="Send:reqHvilEnable" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="440" as="sourcePoint" />
+            <mxPoint x="504.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
