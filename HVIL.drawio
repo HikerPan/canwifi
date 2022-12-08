@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T02:34:14.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="4CT-aPXz60U-atz5vc1O" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-08T02:36:32.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Cnt27VkdM3zd7joSaemW" version="20.6.0" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1247" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -147,6 +147,41 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="503" y="903" as="sourcePoint" />
             <mxPoint x="787.5" y="903" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-14" value="Standby mode" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
+            <mxPoint x="501" y="928" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="531" y="928" />
+            </Array>
+            <mxPoint x="506" y="948" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-15" value="ActHilmSatus:Standby" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="970" as="sourcePoint" />
+            <mxPoint x="215" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380.5" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-16" value="HW_Enable&lt;br&gt;Low" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="217" y="1040" as="sourcePoint" />
+            <mxPoint x="501.5" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-17" value="sleep mode" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry x="0.0667" y="10" relative="1" as="geometry">
+            <mxPoint x="501" y="1061" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="531" y="1061" />
+            </Array>
+            <mxPoint x="506" y="1081" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
