@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T02:15:14.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QUNEHKhzRdN8dDZ7t7UE" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-08T02:15:57.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="2U__ct_yWfwH5WnROlEv" version="20.6.0" type="github" pages="2">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1247" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -36,8 +36,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="iLsvyO64EzzPteAsRmCS-4" value="Send:reqHvilEnable" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="i2D-3HKWvg72EdBBp7nu-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="430" as="sourcePoint" />
+            <mxPoint x="344.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i2D-3HKWvg72EdBBp7nu-4" value=":HVIL Loop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="680" y="40" width="120" height="680" as="geometry" />
+          <mxGeometry x="730" y="40" width="120" height="680" as="geometry" />
         </mxCell>
         <mxCell id="i2D-3HKWvg72EdBBp7nu-13" value="CAN ActHilmStatus:stand by" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" parent="1" target="i2D-3HKWvg72EdBBp7nu-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -69,8 +75,8 @@
         </mxCell>
         <mxCell id="iLsvyO64EzzPteAsRmCS-3" value="Send:reqHvilEnable" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="220" y="440" as="sourcePoint" />
-            <mxPoint x="504.5" y="440" as="targetPoint" />
+            <mxPoint x="216" y="440" as="sourcePoint" />
+            <mxPoint x="500.5" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
